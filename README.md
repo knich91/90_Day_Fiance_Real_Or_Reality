@@ -3,20 +3,24 @@
 2. 90 Day Fiance data compliled by watching and help of ChatGPT. Marriage and Divorce data found through the US Census Bureau (https://data.census.gov/table?q=marriage%20and%20divorce%20in%20kentucky&t=Families%20and%20Living%20Arrangements&g=010XX00US_040XX00US01,04,05,06,09,12,13,16,17,18,20,22,23,24,29,31,32,33,34,35,36,37,39,40,41,42,45,46,47,48,49,51,53,55&y=2023) and K1 Non-Immigrant Petition Data by the US State Department (https://travel.state.gov/content/travel/en/legal/visa-law0/visa-statistics/nonimmigrant-visa-statistics/monthly-nonimmigrant-visa-issuances.html)
 3. Identify and describe three or more features you integrated from the provided list.
     
-    A. % of 90 Day couples that did get married, and % of couples that are still together
+    A. Percent of 90 Day couples that did get married, and percent of couples that are still together
     
     B. Does how couples meet influence if they are still togehter?
     
     C. Does having support of friends and family influence if they are still together?
     
-    D. % of US spouse being male or female influence?
+    D. Percent of US spouse being male or female influence?
    
     E. Does age influence if they are still together?
     
-    F. Compare % of country in the series to % of K1 petitions
+    F. Compare counties represented in the series to issuances of K1 petitions
     
-    G. Compare % by US state of couples in the series to the corresponding state marriage / divorce
+    G. Compare percent by US state of couples in the series to the corresponding state marriage / divorce
 
 4. Include any special instructions for reviewers to run your project.
 
     A. Either be a lover or a hater for reality shows and the complexities of marriage and immigration. 
+
+    B. Tools and Technologies: Pandas, Matplotlib, NumPy, Seaborn, Jupyter Notebook. When using a virtual environment, you'll need to install these tools prior to use. 
+
+    C. 
