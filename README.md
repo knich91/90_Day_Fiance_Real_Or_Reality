@@ -62,39 +62,48 @@ the industry.
 
 5. Data set dictionaries
 
-    A. 90 Day Fiancé Dataset
-This dataset contains information on couples featured in seasons 1-10 of 90 Day Fiancé.
 
-Column Name	        Data Type	Description
-Couple_ID	        Integer 	Unique identifier for each couple in 90 Day Fiancé
-Season	            Integer	    The season in which the couple appeared
-US_State	        String	    The US state where the American partner resides
-Wed	                Boolean	    Whether the couple got married (1 = Yes, 0 = No)
-Still_Together	    Boolean	    Whether the couple is still together (1 = Yes, 0 = No)
-Age_Gap	            Integer	    The age difference between partners in years
-How_They_Met	    String	    How the couple met (e.g., "Online," "Vacation," "Mutual Friends")
-K1_Visa_Approved	Boolean	    Whether the couple received K1 visa approval (1 = Yes, 0 = No)
-    
-    B. US Census Bureau Dataset
+## A. 90 Day Fiancé Dataset
+This dataset contains information on couples featured in seasons 1-10 of *90 Day Fiancé*.
+
+| Column Name       | Data Type  | Description |
+|------------------|-----------|-------------|
+| Couple_ID       | Integer   | Unique identifier for each couple in *90 Day Fiancé* |
+| Season         | Integer   | The season in which the couple appeared |
+| US_State       | String    | The US state where the American partner resides |
+| Wed           | Boolean   | Whether the couple got married (1 = Yes, 0 = No) |
+| Still_Together | Boolean   | Whether the couple is still together (1 = Yes, 0 = No) |
+| Age_Gap       | Integer   | The age difference between partners in years |
+| How_They_Met  | String    | How the couple met (e.g., "Online," "Vacation," "Mutual Friends") |
+| K1_Visa_Approved | Boolean | Whether the couple received K1 visa approval (1 = Yes, 0 = No) |
+
+---
+
+## B. US Census Bureau Dataset
 This dataset provides national and state-level marriage and divorce statistics.
 
-Column Name	        Data Type	Description
-Year	            Integer	    Year of the reported data
-US_Marriage_Rate	Float	    US marriage rate per 1,000 population
-US_Divorce_Rate	    Float	    US divorce rate per 1,000 population
-Total_Population	Integer	    Total US population in the given year
-Married	            Integer	    Number of currently married individuals
-Divorced	        Integer 	Number of divorced individuals
-Separated	        Integer	    Number of legally separated individuals
-Widowed	            Integer	    Number of widowed individuals
-    
-    C. US State Department Dataset
+| Column Name         | Data Type  | Description |
+|--------------------|-----------|-------------|
+| Year             | Integer   | Year of the reported data |
+| US_Marriage_Rate | Float     | US marriage rate per 1,000 population |
+| US_Divorce_Rate  | Float     | US divorce rate per 1,000 population |
+| Total_Population | Integer   | Total US population in the given year |
+| Married         | Integer   | Number of currently married individuals |
+| Divorced       | Integer   | Number of divorced individuals |
+| Separated      | Integer   | Number of legally separated individuals |
+| Widowed        | Integer   | Number of widowed individuals |
+
+---
+
+## C. US State Department Dataset
 This dataset contains data on K1 visa applications and approvals.
 
-Column Name	            Data Type	Description
-Nationality	            String	    Country of Applicant
-Visa Class          	String	    Type of Visa, we are interested in K1 for this project
-Issuances	            Integer	    Total number of visas approved
+| Column Name   | Data Type | Description |
+|--------------|----------|-------------|
+| Nationality  | String   | Country of Applicant |
+| Visa Class   | String   | Type of Visa, we are interested in K1 for this project |
+| Issuances    | Integer  | Total number of visas approved |
+
 
 
     D. Data Transformations
@@ -103,4 +112,4 @@ US_State was standardized for consistency across datasets.
 Marriage and divorce rates were normalized per 1,000 people for better comparability.
 Merged datasets using Year and US_State to align census and visa statistics with 90 Day Fiancé data.
 
-6. Next steps: continue to expand the data through repeating patterns by uear of US Census, and combining months and years from the State Department for total K1 petitions. 
+6. Next steps: continue to expand the data through repeating patterns by uear of US Census, and combining months and years from the State Department for total K1 petitions. Build into a dashboard and/or Tableau.
