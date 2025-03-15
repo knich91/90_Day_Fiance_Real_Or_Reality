@@ -31,7 +31,6 @@
 that you need to do in the terminal. Its a vital skill that is expected in    
 the industry. 
 
-
 ## Virtual Environment Commands
 
 | Command | Linux/Mac | GitBash |
