@@ -51,7 +51,7 @@ The project is organized as follows:
 To run this project, follow these steps:
 
 1. Either be a lover or a hater for reality shows and the complexities of marriage and immigration.  
-2. Clone the repository: `git clone https://github.com/your-username/your-project.git`
+2. Clone the repository: `git clone https://github.com/knich91/90_Day_Fiance_Real_Or_Reality`
 3. Install the necessary dependencies: `pip install -r requirements.txt`
 4. Explore the Jupyter notebooks or scripts in the respective folders. Include any special instructions for reviewers to run your project.
 5. Tools and Technologies: Jupyter Notebook with Pandas, Plotly, Matplotlib, NumPy, Seaborn. When using a virtual environment, you'll need to install these tools prior to use. 
@@ -145,4 +145,4 @@ Marriage and divorce rates were normalized per 1,000 people for better comparabi
 Merged datasets using Year and US_State to align census and visa statistics with 90 Day Fiancé data.
 
 ## Next steps: 
-Continue to expand the data through repeating patterns by uear of US Census, and combining months and years from the State Department for total K1 petitions. Build into a dashboard and/or Tableau.
+Continue to expand the data through repeating patterns by year of US Census, and combining months and years from the State Department for total K1 petitions. Build into a dashboard and/or Tableau.
